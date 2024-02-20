@@ -1,2 +1,2 @@
-Este foi um challenge que participei em 2022
-Para criação desse projeto seguindo o figma fornecido
+Este foi um challenge que participei em 2022.
+Para criação desse projeto segui o layout desenvolvido pela Alura e compartilhado pelo figma.
