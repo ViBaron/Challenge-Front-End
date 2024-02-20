@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Comunidade Alura DEV</title>
+		<link rel="shortcut icon" href="image/fav.png" type="image/x-icon" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/github-dark.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="mobile-only"><div class="box-menu-mobile" id="box-menu-mobile">
+			<div class="menu-desk">
+				<div class="menu-desk-title">Menu</div>
+				<a href="Index.html"><div><img src="Image/code.png" class="img-menu" alt="Code editor"><span>Editor de código</span></div></a>
+				<div><img src="Image/community.png" class="img-menu" style="background: #5081FB;" alt="Communuty"><span>Comunidade</span></div>
+				<hr>
+				<div class="perfil"><img src="image/Photo.png" alt="Perfil"><span>Victor</span></div>
+			</div>
+		</div></div>
+		<div class="cabecalho">
+			<div class="cabe-left">
+				<a href="Index.html"><img class="logo" src="image/logo.png"></a>
+			</div>
+			<div class="cabe-center">
+				<div class="search"><img id="busca-icon" src="image/search.png" alt="Search"></div>
+				<input type="text" placeholder="Busque por algo" id="busca" class="busca inpsel">
+			</div>
+			<div class="cabe-right">
+				<div class="perfil"><img src="image/Photo.png" alt="Perfil"><span>Victor</span></div>
+				<div class="menu-mobile"><img id="menu-icon" src="Image/menu-mobile.png"></div>
+			</div>
+		</div>
+		<div class="separador">
+			<div class="left-align">
+				<div class="menu-desk">
+					<div class="menu-desk-title">Menu</div>
+					<a href="Index.html"><div><img src="Image/code.png" class="img-menu" alt="Code editor"><span>Editor de código</span></div></a>
+					<div><img src="Image/community.png" class="img-menu" style="background: #5081FB;" alt="Communuty"><span>Comunidade</span></div>
+				</div>
+			</div>
+			<div class="centeringht-align">
+				<div class="separador-inter">
+					
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', (event) => {
+				proj_conteudo ();
+  				document.querySelectorAll('code').forEach((el) => {
+   				 hljs.highlightElement(el);
+ 				 });
+			});
+		</script>
+	</body>
+</html>
